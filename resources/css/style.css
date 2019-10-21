@@ -25,6 +25,17 @@
   margin-top: 2rem;
 }
 
+/* universal styles - tablet */
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 95%;
+  }
+  
+  .img-float-right {
+    float: none;
+  }
+}
+
 /* navbar styles */
 
 .logo-group {
@@ -92,6 +103,13 @@
   }
 }
 
+/* navbar - mobile styles  */
+@media only screen and ( max-width: 510px ) {
+  .tagline {
+    display: none;
+  }
+}
+
 /* hero styles */
 
 .hero {
@@ -138,6 +156,10 @@
   background-size: cover;
   overflow: hidden;
   margin: 1rem;
+}
+
+.home-img-tablet {
+  display: none;
 }
 
 .home-splash {
@@ -205,6 +227,25 @@
   .store-button:hover {
     font-size: 2.4rem;
   }
+
+  .home-splash {
+    margin-top: 6rem;
+  }
+
+  .home-img-pc {
+    display: none;
+  }
+
+  .home-img-tablet {
+    display: block;
+  }
+
+  .home-img {
+    width: 80%;
+    margin: 4rem auto 4rem auto;
+  }
+
+  
 }
 
 /* about styling */
