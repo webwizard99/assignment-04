@@ -84,6 +84,13 @@
   text-shadow: 1px 1px 5px rgba(10, 5, 5, .8);
 }
 
+/* navbar - tablet styles  */
+
+@media only screen and ( max-width: 1024px) {
+  .nav-options a {
+    font-size: 1.6rem;
+  }
+}
 
 /* hero styles */
 
@@ -114,6 +121,14 @@
 .hero-img-about {
   background: linear-gradient(to bottom, rgba(216,207,205,0.26) 0%,rgba(216,207,205,0.3) 50%,rgba(216,207,205,0.34) 100%), url('../media/beach-salt-water-sand-17727.jpg');
 }
+
+/* hero styles - tablet */
+@media only screen and ( max-width: 1024px) {
+  .hero {
+    height: 52rem;
+  }
+}
+
 
 /* home page styles */
 .home-img {
@@ -175,6 +190,21 @@
 .store-button:hover {
   font-weight: 800;
   font-size: 1.8rem;
+}
+
+/* home page - tablet styles  */
+
+@media only screen and ( max-width: 1024px) {
+  .store-button {
+    margin: 40vh auto 0 auto;
+    height: 3rem;
+    width: 200px;
+    font-size: 2rem;
+  }
+
+  .store-button:hover {
+    font-size: 2.4rem;
+  }
 }
 
 /* about styling */
