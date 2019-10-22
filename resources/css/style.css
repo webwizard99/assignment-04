@@ -297,6 +297,13 @@
   .about-header-main {
     margin-top: 48rem;
   }
+
+  /* about header styling - mobile  */
+  @media only screen and ( max-width: 510px ) {
+    .about-header-main {
+      margin-top: 26rem;
+    }
+  }
 }
 
 .about-story {
@@ -331,5 +338,12 @@
 
   .about-img-pc {
     display: none;
+  }
+}
+
+/* about styling - mobile  */
+@media only screen and ( max-width: 510px ) {
+  .about-container {
+    margin-top: 4rem;
   }
 }
