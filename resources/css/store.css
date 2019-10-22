@@ -1,3 +1,5 @@
+/* store banner styling */
+
 .store-banner-head, .store-banner-text {
   color: rgb(60, 80, 76);
   font-family: 'Quicksand', sans-serif;
@@ -8,8 +10,7 @@
 .store-banner {
   width: 60%;
   height: 12rem;
-  margin: auto;
-  margin-top: 8rem;
+  margin: 8rem auto auto auto;
   padding: 1rem;
   background-color: rgba(240, 245, 250, .6);
 }
@@ -23,6 +24,23 @@
   font-size: 1.4rem;
 }
 
+/* store banner - tablet styling  */
+@media only screen and ( max-width: 1024px ) {
+  .store-banner {
+    width: 80%;
+    margin: 16rem auto auto auto;
+  }
+}
+
+/* store banner - mobile styling  */
+@media only screen and ( max-width: 510px ) {
+  .store-banner {
+    margin: 8rem auto auto auto;
+  }
+}
+
+/* store item-view styling */
+
 .store-frame {
   width: 967px;
   height: auto;
@@ -32,6 +50,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+ }
+
+/* store frame - tablet styling  */
+@media only screen and ( max-width: 1024px ) {
+  .store-frame {
+    width: 80%;
+  }
 }
 
 .store-item {
@@ -69,4 +94,18 @@
 
 .item-price {
   font-weight: 800;
+}
+
+
+/* store-item - tablet styles  */
+@media only screen and ( max-width: 1024px ) {
+  .store-item {
+    width: 44%;
+  }
+}
+
+@media only screen and (max-width: 510px ) {
+  .store-item {
+    width: 96%;
+  }
 }

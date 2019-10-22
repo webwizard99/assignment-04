@@ -36,6 +36,59 @@
   }
 }
 
+/* hero styles */
+
+.hero {
+  
+  overflow: hidden;
+  height: 38rem;
+  width: 100%;
+  box-shadow: 1px 1px 6px rgba(10, 5, 5, .6);
+}
+
+.hero-store {
+  
+  overflow: hidden;
+  height: 30rem;
+  width: 100%;
+  box-shadow: 1px 1px 6px rgba(10, 5, 5, .6);
+}
+
+.hero-img {
+  background: linear-gradient(to bottom, rgba(153,147,146,0.53) 0%,rgba(214,202,201,0.48) 50%,rgba(239,211,210,0.42) 100%), url('../media/sea-salt-in-white-bowls.jpg');
+}
+
+.hero-img-store {
+  background: linear-gradient(to bottom, rgba(216,207,205,0.26) 0%,rgba(216,207,205,0.3) 50%,rgba(216,207,205,0.34) 100%), url('../media/sea-salt-reserve-resort.jpg');
+}
+
+.hero-img-about {
+  background: linear-gradient(to bottom, rgba(216,207,205,0.26) 0%,rgba(216,207,205,0.3) 50%,rgba(216,207,205,0.34) 100%), url('../media/beach-salt-water-sand-17727.jpg');
+}
+
+/* hero styles - tablet */
+@media only screen and ( max-width: 1024px) {
+  .hero {
+    height: 76vh;
+  }
+
+  .hero-store {
+    height: 40rem;
+  }
+}
+
+/* hero styles - mobile  */
+@media only screen and ( max-width: 650px ) {
+  .hero {
+    height: 86vh;
+  }
+
+  .hero-store {
+    height: 60vh;
+  }
+}
+
+
 /* navbar styles */
 
 .logo-group {
@@ -110,50 +163,6 @@
   }
 }
 
-
-/* hero styles */
-
-.hero {
-  
-  overflow: hidden;
-  height: 38rem;
-  width: 100%;
-  box-shadow: 1px 1px 6px rgba(10, 5, 5, .6);
-}
-
-.hero-store {
-  
-  overflow: hidden;
-  height: 30rem;
-  width: 100%;
-  box-shadow: 1px 1px 6px rgba(10, 5, 5, .6);
-}
-
-.hero-img {
-  background: linear-gradient(to bottom, rgba(153,147,146,0.53) 0%,rgba(214,202,201,0.48) 50%,rgba(239,211,210,0.42) 100%), url('../media/sea-salt-in-white-bowls.jpg');
-}
-
-.hero-img-store {
-  background: linear-gradient(to bottom, rgba(216,207,205,0.26) 0%,rgba(216,207,205,0.3) 50%,rgba(216,207,205,0.34) 100%), url('../media/sea-salt-reserve-resort.jpg');
-}
-
-.hero-img-about {
-  background: linear-gradient(to bottom, rgba(216,207,205,0.26) 0%,rgba(216,207,205,0.3) 50%,rgba(216,207,205,0.34) 100%), url('../media/beach-salt-water-sand-17727.jpg');
-}
-
-/* hero styles - tablet */
-@media only screen and ( max-width: 1024px) {
-  .hero {
-    height: 76vh;
-  }
-}
-
-/* hero styles - mobile  */
-@media only screen and ( max-width: 650px ) {
-  .hero {
-    height: 86vh;
-  }
-}
 
 
 /* home page styles */
