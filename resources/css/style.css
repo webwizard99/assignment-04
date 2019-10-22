@@ -104,11 +104,12 @@
 }
 
 /* navbar - mobile styles  */
-@media only screen and ( max-width: 510px ) {
+@media only screen and ( max-width: 510px) {
   .tagline {
     display: none;
   }
 }
+
 
 /* hero styles */
 
@@ -143,7 +144,14 @@
 /* hero styles - tablet */
 @media only screen and ( max-width: 1024px) {
   .hero {
-    height: 52rem;
+    height: 76vh;
+  }
+}
+
+/* hero styles - mobile  */
+@media only screen and ( max-width: 650px ) {
+  .hero {
+    height: 86vh;
   }
 }
 
@@ -245,7 +253,18 @@
     margin: 4rem auto 4rem auto;
   }
 
-  
+}
+
+/* home page - mobile styles  */
+@media only screen and ( max-width: 510px ) {
+  .home-img {
+    height: 500px;
+    background-position: center;
+  }
+
+  .store-button {
+    margin: 55vh auto 0 auto;
+  }
 }
 
 /* about styling */
