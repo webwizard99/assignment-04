@@ -22,7 +22,8 @@
 
 .story-para {
   font-family: 'Quicksand', sans-serif;
-  margin-top: 2rem;
+  margin-top: 2.4rem;
+  line-height: 2rem;
 }
 
 /* universal styles - tablet */
@@ -192,7 +193,6 @@
 .home-story {
   font-size: 1.6em;
   font-weight: 800;
-  line-height: 2rem;
   color: rgb(80, 100, 86);
 }
 
@@ -292,6 +292,13 @@
   box-shadow: 1px 1px 3px rgb(26, 10, 18);
 }
 
+/* about header styling - tablet  */
+@media only screen and ( max-width: 1024px ) {
+  .about-header-main {
+    margin-top: 48rem;
+  }
+}
+
 .about-story {
   font-size: 1.8em;
   font-weight: 800;
@@ -310,4 +317,19 @@
   background-size: cover;
   overflow: hidden;
   margin: 1rem;
+}
+
+.about-img-tablet {
+  display: none;
+}
+
+/* about styling - tablet  */
+@media only screen and ( max-width: 1024px ) {
+  .about-img-tablet {
+    display: block;
+  }
+
+  .about-img-pc {
+    display: none;
+  }
 }
