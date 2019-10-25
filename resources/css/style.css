@@ -81,11 +81,11 @@
 /* hero styles - mobile  */
 @media only screen and ( max-width: 650px ) {
   .hero {
-    height: 86vh;
+    height: 76vh;
   }
 
   .hero-store {
-    height: 60vh;
+    height: 72vh;
   }
 }
 
@@ -272,7 +272,7 @@
   }
 
   .store-button {
-    margin: 55vh auto 0 auto;
+    margin: 45vh auto 0 auto;
   }
 }
 
@@ -301,8 +301,9 @@
   /* about header styling - mobile  */
   @media only screen and ( max-width: 510px ) {
     .about-header-main {
-      margin-top: 26rem;
+      margin-top: 12rem;
     }
+
   }
 }
 
@@ -345,5 +346,9 @@
 @media only screen and ( max-width: 510px ) {
   .about-container {
     margin-top: 4rem;
+  }
+
+  .about-img {
+    width: 90%;
   }
 }
